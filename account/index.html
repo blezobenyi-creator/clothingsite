@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account & Order Tracking | LuxeLane</title>
+  <meta name="description" content="Create a LuxeLane account, save favorites, and track order progress with a responsive account dashboard.">
+  <link rel="canonical" href="/account/"><link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header"><div class="container topbar"><a class="brand" href="/"><span class="brand-mark">L</span><span>LuxeLane</span></a><button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" data-nav-toggle>Menu</button><div class="search-wrap"><form class="search-form" role="search" data-search><input type="search" placeholder="Search your saved products" aria-label="Search products"><button type="submit">Search</button></form><div class="suggestions" data-suggestions></div></div><nav class="main-nav" id="main-nav" data-nav><a href="/">Home</a><a href="/men/">Men</a><a href="/women/">Women</a><a href="/shoes/">Shoes</a><a href="/jewelry/">Jewelry</a><a href="/accessories/">Accessories</a></nav><div class="header-actions"><button class="voice-button" type="button" data-voice-search>🎙️</button><button class="contrast-toggle" type="button" data-contrast-toggle>◐</button><a class="icon-button" href="/account/">Account</a><a class="icon-button" href="/checkout/">Wishlist <span data-wishlist-count>0</span></a></div></div></header>
+  <main id="main-content" class="section">
+    <div class="container account-grid">
+      <section class="form-card" aria-labelledby="account-title">
+        <h1 id="account-title">Create an account</h1>
+        <p class="muted">Save orders, favorites, and delivery updates in one responsive dashboard.</p>
+        <form class="payment-options" data-demo-submit>
+          <div class="form-grid">
+            <div class="field"><label for="account-name">Full name</label><input id="account-name" required></div>
+            <div class="field"><label for="account-phone">Phone</label><input id="account-phone" required></div>
+            <div class="field full"><label for="account-email">Email</label><input id="account-email" type="email" required></div>
+            <div class="field"><label for="password">Password</label><input id="password" type="password" required></div>
+            <div class="field"><label for="track-code">Order tracking code</label><input id="track-code" placeholder="LL-2048"></div>
+          </div>
+          <button class="btn-primary" type="submit">Create account</button>
+          <span data-form-status aria-live="polite"></span>
+        </form>
+      </section>
+      <aside class="summary-card">
+        <h2>Order tracking</h2>
+        <div class="order-list">
+          <div class="order-item"><strong>Order #LL-2048</strong><span>In transit</span></div>
+          <div class="order-item"><strong>Warehouse packed</strong><span>Completed</span></div>
+          <div class="order-item"><strong>Courier pickup</strong><span>Completed</span></div>
+          <div class="order-item"><strong>Estimated delivery</strong><span>March 19, 2026</span></div>
+        </div>
+        <h3>Saved favorites</h3>
+        <p class="muted">Use the wishlist buttons across the storefront to build your personalized edit.</p>
+      </aside>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div><h3>LuxeLane</h3><p>Account tools that encourage repeat purchases and transparent fulfillment.</p></div><div><h4>Browse</h4><div class="footer-links"><a href="/">Home</a><a href="/product/">Product</a></div></div><div><h4>Checkout</h4><div class="footer-links"><a href="/checkout/">Secure checkout</a><a href="/account/">Order tracking</a></div></div><div><h4>Highlights</h4><div class="footer-links"><span>Favorites</span><span>Tracking dashboard</span></div></div></div></footer>
+  <aside class="live-chat"><button class="chat-toggle" type="button" data-chat-toggle>Live chat</button><div class="chat-window" data-chat-window><div class="chat-panel"><div class="chat-messages" data-chat-messages><div class="chat-bubble agent">Need an update on your order or account support?</div></div><form data-chat-form><input type="text" placeholder="Message support"></form></div></div></aside>
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>

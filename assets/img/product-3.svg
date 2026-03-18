@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 850" role="img" aria-label="Loafer illustration">
+  <rect width="700" height="850" rx="40" fill="#eef4fb"/>
+  <path d="M144 474c52-10 120-4 184 18l104 34c54 18 108 28 162 28 40 0 70 31 70 69 0 34-26 61-60 61H258c-42 0-80-18-106-48l-26-30c-23-26-20-67 6-90 5-4 9-7 12-10Z" fill="#13284a"/>
+  <path d="M200 464c82-9 151 4 208 40" fill="none" stroke="#caa86a" stroke-width="18" stroke-linecap="round"/>
+  <rect x="126" y="696" width="460" height="34" rx="17" fill="#0c1b33" opacity=".1"/>
+</svg>

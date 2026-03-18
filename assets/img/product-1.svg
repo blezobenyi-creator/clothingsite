@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 850" role="img" aria-label="Tailored coat illustration">
+  <rect width="700" height="850" rx="40" fill="#eef2f7"/>
+  <circle cx="350" cy="148" r="88" fill="#f1d4c5"/>
+  <path d="M220 220h260l70 110-62 370H212l-62-370 70-110Z" fill="#13284a"/>
+  <path d="M290 220h120l-32 142h-56l-32-142Z" fill="#fff" opacity=".92"/>
+  <path d="M240 330c70 48 150 72 220 72s150-24 220-72" fill="none" stroke="#caa86a" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="350" cy="448" r="10" fill="#caa86a"/>
+  <circle cx="350" cy="510" r="10" fill="#caa86a"/>
+  <circle cx="350" cy="572" r="10" fill="#caa86a"/>
+  <rect x="170" y="700" width="360" height="42" rx="20" fill="#0c1b33" opacity=".12"/>
+</svg>
