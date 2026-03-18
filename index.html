@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuxeLane Clothing | Responsive Designer Fashion Store</title>
+  <meta name="description" content="Shop LuxeLane's SEO-optimized clothing boutique featuring designer apparel, shoes, jewelry, accessories, voice search, wishlist tools, and secure checkout.">
+  <link rel="canonical" href="/">
+  <meta property="og:title" content="LuxeLane Clothing | Responsive Designer Fashion Store">
+  <meta property="og:description" content="Explore seasonal collections, featured products, newsletter perks, and curated looks across every device.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="/">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header" aria-label="Primary site header">
+    <div class="container topbar">
+      <a class="brand" href="/" aria-label="LuxeLane home">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span>LuxeLane</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" data-nav-toggle>Menu</button>
+      <div class="search-wrap" aria-label="Product search">
+        <form class="search-form" role="search" data-search>
+          <label class="sr-only" for="site-search">Search styles</label>
+          <input id="site-search" type="search" placeholder="Search shirts, dresses, loafers…" aria-label="Search products with auto suggestions">
+          <button type="submit">Search</button>
+        </form>
+        <div class="suggestions" data-suggestions aria-live="polite"></div>
+      </div>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation" data-nav>
+        <a class="active" href="/">Home</a>
+        <a href="/men/">Men</a>
+        <a href="/women/">Women</a>
+        <a href="/shoes/">Shoes</a>
+        <a href="/jewelry/">Jewelry</a>
+        <a href="/accessories/">Accessories</a>
+      </nav>
+      <div class="header-actions">
+        <button class="voice-button" type="button" data-voice-search aria-label="Start voice search">🎙️</button>
+        <button class="contrast-toggle" type="button" data-contrast-toggle aria-label="Toggle high contrast mode">◐</button>
+        <a class="icon-button" href="/account/" aria-label="View account and order tracking">Account</a>
+        <a class="icon-button" href="/checkout/" aria-label="View wishlist and secure checkout">Wishlist <span data-wishlist-count>0</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero-banner" aria-labelledby="hero-title">
+      <div class="container grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Spring / Summer 2026 • Curated luxury essentials</span>
+          <h1 id="hero-title">A responsive fashion storefront designed to convert.</h1>
+          <p>Discover premium apparel, shoes, jewelry, and accessories in a mobile-first experience featuring auto-suggest search, voice search, semantic SEO, and fast-loading visuals.</p>
+          <div class="cta-group">
+            <a class="btn-primary" href="/women/">Shop new arrivals</a>
+            <a class="btn-secondary" href="/product/">Explore featured look</a>
+          </div>
+          <div class="stat-row" aria-label="Store highlights">
+            <div class="stat"><strong>24hr</strong><br>dispatch for capsule picks</div>
+            <div class="stat"><strong>4.9/5</strong><br>verified customer ratings</div>
+            <div class="stat"><strong>360°</strong><br>interactive product views</div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Seasonal collection visual">
+          <p class="eyebrow">Editorial spotlight</p>
+          <h2>Gold-standard tailoring with elevated essentials.</h2>
+          <p>Built for phones first and polished for every screen size, this concept pairs a deep navy palette with elegant gold highlights and performance-focused assets.</p>
+          <img src="/assets/img/hero-look.svg" alt="Illustrated model wearing LuxeLane seasonal capsule collection" loading="eager" width="800" height="900">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="featured-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <h2 id="featured-title">Featured product carousel</h2>
+            <p>Swipe on mobile, scroll on tablet, and browse with directional controls on desktop.</p>
+          </div>
+          <div class="carousel-controls">
+            <button class="btn-secondary" type="button" data-carousel-dir="-1">← Prev</button>
+            <button class="btn-secondary" type="button" data-carousel-dir="1">Next →</button>
+          </div>
+        </div>
+        <div class="carousel" data-carousel>
+          <div class="carousel-track">
+            <article class="product-card" data-product-card data-category="men" data-color="navy" data-price="mid" data-brand="luxelane" data-occasion="work">
+              <div class="product-media">
+                <img src="/assets/img/product-1.svg" alt="LuxeLane signature trench coat in deep navy" loading="lazy" width="700" height="850">
+                <div class="badge-row"><span class="badge gold">Editor pick</span><span class="badge">360° view</span></div>
+              </div>
+              <div class="product-body">
+                <h3>Signature Trench</h3>
+                <p class="product-meta">Men • LuxeLane Atelier</p>
+                <div class="price-row"><span class="price">$248</span><span class="rating">★ 4.9</span></div>
+                <div class="card-actions">
+                  <a class="btn-primary" href="/product/">View product</a>
+                  <button class="btn-secondary" type="button" data-wishlist="signature-trench">♡ Wishlist</button>
+                </div>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-media">
+                <img src="/assets/img/product-2.svg" alt="Occasion midi dress in warm gold tone" loading="lazy" width="700" height="850">
+                <div class="badge-row"><span class="badge gold">Best seller</span></div>
+              </div>
+              <div class="product-body">
+                <h3>Occasion Midi Dress</h3>
+                <p class="product-meta">Women • LuxeLane Studio</p>
+                <div class="price-row"><span class="price">$196</span><span class="rating">★ 4.8</span></div>
+                <div class="card-actions">
+                  <a class="btn-primary" href="/women/">Shop women</a>
+                  <button class="btn-secondary" type="button" data-wishlist="occasion-midi">♡ Wishlist</button>
+                </div>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-media">
+                <img src="/assets/img/product-3.svg" alt="Premium leather loafers in deep navy" loading="lazy" width="700" height="850">
+                <div class="badge-row"><span class="badge">Limited run</span></div>
+              </div>
+              <div class="product-body">
+                <h3>Monarch Loafer</h3>
+                <p class="product-meta">Shoes • Harper & Co.</p>
+                <div class="price-row"><span class="price">$158</span><span class="rating">★ 4.7</span></div>
+                <div class="card-actions">
+                  <a class="btn-primary" href="/shoes/">Shop shoes</a>
+                  <button class="btn-secondary" type="button" data-wishlist="monarch-loafer">♡ Wishlist</button>
+                </div>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="product-media">
+                <img src="/assets/img/product-4.svg" alt="Gold pendant necklace with minimalist styling" loading="lazy" width="700" height="850">
+                <div class="badge-row"><span class="badge gold">Gift-ready</span></div>
+              </div>
+              <div class="product-body">
+                <h3>Halo Pendant</h3>
+                <p class="product-meta">Jewelry • Aurelia</p>
+                <div class="price-row"><span class="price">$132</span><span class="rating">★ 4.9</span></div>
+                <div class="card-actions">
+                  <a class="btn-primary" href="/jewelry/">Shop jewelry</a>
+                  <button class="btn-secondary" type="button" data-wishlist="halo-pendant">♡ Wishlist</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="collections-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <h2 id="collections-title">Shop curated departments</h2>
+            <p>Each collection page uses clean URLs, semantic structure, and filter-driven browsing.</p>
+          </div>
+        </div>
+        <div class="card-grid">
+          <a class="category-card" href="/men/"><h3>Men</h3><p>Precision shirting, tailoring, and smart layers for every occasion.</p></a>
+          <a class="category-card" href="/women/"><h3>Women</h3><p>Contemporary dresses, outerwear, and capsule ready-to-wear.</p></a>
+          <a class="category-card" href="/shoes/"><h3>Shoes</h3><p>Comfort-led loafers, heels, and everyday luxury footwear.</p></a>
+          <a class="category-card" href="/accessories/"><h3>Accessories</h3><p>Bags, belts, scarves, and finishing touches with premium polish.</p></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <h2 id="experience-title">Conversion-ready shopping experience</h2>
+            <p>Designed to highlight modern commerce features across discovery, purchase, and retention.</p>
+          </div>
+        </div>
+        <div class="card-grid">
+          <article class="feature-card"><h3>Secure checkout</h3><p>Multiple payment options, trust messaging, and a polished summary drawer improve buyer confidence.</p></article>
+          <article class="feature-card"><h3>Wishlist & favorites</h3><p>Save preferred pieces locally and return later through the account or checkout touchpoints.</p></article>
+          <article class="feature-card"><h3>Live chat support</h3><p>Floating stylist chat offers sizing and styling help without interrupting browsing.</p></article>
+          <article class="feature-card"><h3>Order tracking</h3><p>Account dashboard includes order history, fulfillment state, and delivery milestones.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="newsletter-title">
+      <div class="container newsletter">
+        <div>
+          <p class="eyebrow">Newsletter perks</p>
+          <h2 id="newsletter-title">Stay close to drops, styling edits, and VIP previews.</h2>
+          <p>Capture emails with an accessible signup form and promote social channels for ongoing engagement.</p>
+        </div>
+        <div>
+          <form class="newsletter-form" data-demo-submit>
+            <label class="sr-only" for="newsletter-email">Email address</label>
+            <input id="newsletter-email" type="email" placeholder="Email address" required aria-label="Email address for newsletter signup">
+            <button class="btn-primary" type="submit">Subscribe</button>
+            <span data-form-status aria-live="polite"></span>
+          </form>
+          <div class="social-links" aria-label="Social media links">
+            <a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://www.tiktok.com" target="_blank" rel="noreferrer">TikTok</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>LuxeLane</h3>
+        <p>Responsive, SEO-ready fashion commerce with elegant storytelling, accessibility enhancements, and modern user journeys.</p>
+      </div>
+      <div><h4>Shop</h4><div class="footer-links"><a href="/men/">Men</a><a href="/women/">Women</a><a href="/shoes/">Shoes</a></div></div>
+      <div><h4>Support</h4><div class="footer-links"><a href="/checkout/">Checkout</a><a href="/account/">Account</a><a href="/product/">Featured product</a></div></div>
+      <div><h4>Features</h4><div class="footer-links"><span>Voice search</span><span>High contrast mode</span><span>Schema-ready pages</span></div></div>
+    </div>
+  </footer>
+
+  <aside class="live-chat" aria-label="Live chat support">
+    <button class="chat-toggle" type="button" data-chat-toggle>Live chat</button>
+    <div class="chat-window" data-chat-window>
+      <div class="chat-panel">
+        <div class="chat-messages" data-chat-messages>
+          <div class="chat-bubble agent">Hello! Need help finding sizing, gifting, or styling guidance?</div>
+        </div>
+        <form data-chat-form>
+          <label class="sr-only" for="chat-input">Chat input</label>
+          <input id="chat-input" type="text" placeholder="Ask a stylist" aria-label="Ask a stylist">
+        </form>
+      </div>
+    </div>
+  </aside>
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>

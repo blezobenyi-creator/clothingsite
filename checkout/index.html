@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure Checkout | LuxeLane</title>
+  <meta name="description" content="Complete a secure LuxeLane checkout with multiple payment options, saved favorites, and confidence-building purchase messaging.">
+  <link rel="canonical" href="/checkout/"><link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header"><div class="container topbar"><a class="brand" href="/"><span class="brand-mark">L</span><span>LuxeLane</span></a><button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" data-nav-toggle>Menu</button><div class="search-wrap"><form class="search-form" role="search" data-search><input type="search" placeholder="Search before checkout" aria-label="Search products"><button type="submit">Search</button></form><div class="suggestions" data-suggestions></div></div><nav class="main-nav" id="main-nav" data-nav><a href="/">Home</a><a href="/men/">Men</a><a href="/women/">Women</a><a href="/shoes/">Shoes</a><a href="/jewelry/">Jewelry</a><a href="/accessories/">Accessories</a></nav><div class="header-actions"><button class="voice-button" type="button" data-voice-search>🎙️</button><button class="contrast-toggle" type="button" data-contrast-toggle>◐</button><a class="icon-button" href="/account/">Account</a><a class="icon-button" href="/checkout/">Wishlist <span data-wishlist-count>0</span></a></div></div></header>
+  <main id="main-content" class="section">
+    <div class="container checkout-grid">
+      <section class="form-card" aria-labelledby="checkout-title">
+        <h1 id="checkout-title">Secure checkout</h1>
+        <p class="muted">Encrypted checkout flow with multiple payment options, accessible forms, and transparent delivery messaging.</p>
+        <form class="payment-options" data-demo-submit>
+          <div class="form-grid">
+            <div class="field"><label for="first-name">First name</label><input id="first-name" required></div>
+            <div class="field"><label for="last-name">Last name</label><input id="last-name" required></div>
+            <div class="field full"><label for="email">Email</label><input id="email" type="email" required></div>
+            <div class="field full"><label for="address">Address</label><input id="address" required></div>
+            <div class="field"><label for="city">City</label><input id="city" required></div>
+            <div class="field"><label for="zip">ZIP code</label><input id="zip" required></div>
+          </div>
+          <h2>Payment options</h2>
+          <label class="option-row"><input type="radio" name="payment" checked> Credit / Debit Card</label>
+          <label class="option-row"><input type="radio" name="payment"> PayPal</label>
+          <label class="option-row"><input type="radio" name="payment"> Apple Pay</label>
+          <label class="option-row"><input type="radio" name="payment"> Klarna / Pay Later</label>
+          <div class="form-grid">
+            <div class="field full"><label for="card">Card number</label><input id="card" placeholder="4242 4242 4242 4242"></div>
+            <div class="field"><label for="exp">Expiry</label><input id="exp" placeholder="MM/YY"></div>
+            <div class="field"><label for="cvv">CVV</label><input id="cvv" placeholder="123"></div>
+          </div>
+          <button class="btn-primary" type="submit">Place order securely</button>
+          <span data-form-status aria-live="polite"></span>
+        </form>
+      </section>
+      <aside class="summary-card">
+        <h2>Order summary</h2>
+        <div class="order-list">
+          <div class="order-item"><strong>Signature Trench</strong><span>$248</span></div>
+          <div class="order-item"><strong>Monarch Loafer</strong><span>$158</span></div>
+          <div class="order-item"><strong>VIP shipping</strong><span>Free</span></div>
+          <div class="order-item"><strong>Total</strong><span>$406</span></div>
+        </div>
+        <h3>Wishlist & favorites</h3>
+        <p class="muted">Your saved items follow you into checkout for quick add-ons and future purchases.</p>
+        <div class="notice">Secure checkout features visible trust cues, accessible forms, and streamlined payment choices.</div>
+      </aside>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><div><h3>LuxeLane</h3><p>Protected checkout optimized to reduce friction and boost trust.</p></div><div><h4>Browse</h4><div class="footer-links"><a href="/product/">Product</a><a href="/accessories/">Accessories</a></div></div><div><h4>Account</h4><div class="footer-links"><a href="/account/">Order tracking</a><a href="/">Home</a></div></div><div><h4>Highlights</h4><div class="footer-links"><span>Card / PayPal / Apple Pay</span><span>Wishlist continuity</span></div></div></div></footer>
+  <aside class="live-chat"><button class="chat-toggle" type="button" data-chat-toggle>Live chat</button><div class="chat-window" data-chat-window><div class="chat-panel"><div class="chat-messages" data-chat-messages><div class="chat-bubble agent">Need help checking out or splitting payment?</div></div><form data-chat-form><input type="text" placeholder="Message support"></form></div></div></aside>
+  <script src="/assets/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 850" role="img" aria-label="Jewelry necklace illustration">
+  <rect width="700" height="850" rx="40" fill="#f8fafc"/>
+  <circle cx="350" cy="280" r="160" fill="none" stroke="#13284a" stroke-width="18" stroke-dasharray="6 18"/>
+  <path d="M242 257c36 88 94 146 108 160s72-72 108-160" fill="none" stroke="#caa86a" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="350" cy="434" r="48" fill="#caa86a"/>
+  <circle cx="350" cy="434" r="24" fill="#fff4d6"/>
+  <rect x="170" y="650" width="360" height="38" rx="18" fill="#0c1b33" opacity=".08"/>
+</svg>

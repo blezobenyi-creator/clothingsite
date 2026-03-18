@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 850" role="img" aria-label="Dress illustration">
+  <rect width="700" height="850" rx="40" fill="#f8fafc"/>
+  <circle cx="350" cy="140" r="84" fill="#f0d2c2"/>
+  <path d="M280 210h140l46 120-14 330H248l-14-330 46-120Z" fill="#caa86a"/>
+  <path d="M214 344c84 44 170 66 258 66s174-22 258-66" fill="none" stroke="#0c1b33" opacity=".25" stroke-width="14" stroke-linecap="round"/>
+  <path d="M226 660h248l40 46H186l40-46Z" fill="#13284a" opacity=".9"/>
+  <rect x="170" y="720" width="360" height="42" rx="20" fill="#0c1b33" opacity=".12"/>
+</svg>
